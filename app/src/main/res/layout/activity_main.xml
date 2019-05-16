@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--pada bagian script di atas adalah untuk membuat sebuah layout,dimana layout ini menggunakan linear layout veertikal,
+yang artinya semua komponen akan ke arah atas/ke bawah saja-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="402dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+<!--pada bagian script di atas adalah untuk memberikan gambar pada bagian tertentu,dan gambar ini menggunakan gammbar dari
+aplikasi adroid studio yang bernama "ic_launcher" lalu dengan hight nya  402dp dengan nama id nya imageView-->
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cekrek" />
+    <!--pada bagian script di atas adalah membuat tombol button dan nama tombol di beri nama "ckerek" dengan id btnCamera,
+    fungsi tombol ini adalah ketika ingin mengambil gambar maka akan ke bagian kamera .-->
+
+</LinearLayout>
+<!--pada bagian ini adalah untuk menutup layout linear tersebut-->
